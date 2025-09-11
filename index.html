@@ -38,39 +38,30 @@
 </head>
 <body class="bg-brand-black text-brand-white">
   <!-- Barra superior fija -->
-  <header class="sticky top-0 z-50 bg-brand-black/80 backdrop-blur border-b border-white/10">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <a href="#inicio" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-full bg-brand-orange grid place-items-center ring-2 ring-white/10">
-          <!-- ícono camión -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-brand-black">
-            <path d="M3 7a2 2 0 0 1 2-2h8v8H3V7zm10 0h3.586A2 2 0 0 1 18 5h1l3 4v4h-9V7zM6 19a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm10 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
-          </svg>
-        </div>
-        <div>
-          <p class="text-sm tracking-wider uppercase text-brand-orange">Transporte Acuña</p>
-          <p class="text-xs text-brand-white/70">Auxilio Mecánico · Logística</p>
-        </div>
+ <header class="sticky top-0 z-50 bg-brand-black/80 backdrop-blur border-b border-white/10">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <a href="#inicio" class="flex items-center gap-3 group">
+      <!-- Logo en PNG -->
+      <img src="./images/logo blanco acuña.png" alt="Transporte Acuña" class="h-[150px] w-auto">
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#servicios" class="hover:text-brand-orange">Servicios</a>
+      <a href="#beneficios" class="hover:text-brand-orange">Por qué elegirnos</a>
+      <a href="#flota" class="hover:text-brand-orange">Flota</a>
+      <a href="#testimonios" class="hover:text-brand-orange">Testimonios</a>
+      <a href="#contacto" class="hover:text-brand-orange">Contacto</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="tel:+54 9 298 450-7754" class="hidden sm:inline-flex items-center gap-2 rounded-xl border border-white/10 px-3 py-2 text-sm hover:bg-white/5">
+        <!-- phone -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+          <path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h3.4a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .6 3.6 1 1 0 0 1-.25 1z"/>
+        </svg>
+        <span class="font-medium">Llamar</span>
       </a>
-      <nav class="hidden md:flex items-center gap-6 text-sm">
-        <a href="#servicios" class="hover:text-brand-orange">Servicios</a>
-        <a href="#beneficios" class="hover:text-brand-orange">Por qué elegirnos</a>
-        <a href="#flota" class="hover:text-brand-orange">Flota</a>
-        <a href="#testimonios" class="hover:text-brand-orange">Testimonios</a>
-        <a href="#contacto" class="hover:text-brand-orange">Contacto</a>
-      </nav>
-      <div class="flex items-center gap-3">
-        <a href="tel:+54 9 298 450-7754" class="hidden sm:inline-flex items-center gap-2 rounded-xl border border-white/10 px-3 py-2 text-sm hover:bg-white/5">
-          <!-- phone -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-            <path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h3.4a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .6 3.6 1 1 0 0 1-.25 1z"/>
-          </svg>
-          <span class="font-medium">Llamar</span>
-        </a>
-        <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl bg-brand-orange text-brand-black px-4 py-2 text-sm font-semibold shadow-soft hover:opacity-90">Solicitar Auxilio</a>
-      </div>
+      <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl bg-brand-orange text-brand-black px-4 py-2 text-sm font-semibold shadow-soft hover:opacity-90">Solicitar Servicio</a>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- Hero -->
   <section id="inicio" class="relative overflow-hidden">
@@ -100,7 +91,7 @@
             <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-2">Cobertura nacional</div>
             <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-2">Flota segura y confiable</div>
             <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-2">Seguimiento satelital</div>
-            <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-2">Facturación</div>
+            <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-2">Presupuesto al instante</div>
           </div>
         </div>
         <div class="relative">
@@ -143,9 +134,13 @@
             <img src="./images/remis.jpg" loading="lazy" alt="Servicio de Remis" class="w-full h-32 object-cover">
             <p class="mt-2 text-sm text-brand-white/80 text-center">Asistencia al viajero</p>
           </div>
+                    <div class="rounded-xl overflow-hidden shadow-soft">
+            <img src="./images/remis1.jpg" loading="lazy" alt="Servicio de Remis" class="w-full h-32 object-cover">
+            <p class="mt-2 text-sm text-brand-white/80 text-center">Servicio de Remis</p>
+          </div>
           <div class="rounded-xl overflow-hidden shadow-soft">
             <img src="./images/remolque.jpg" loading="lazy" alt="Remolque" class="w-full h-32 object-cover">
-            <p class="mt-2 text-sm text-brand-white/80 text-center">Remolque hasta 5 Tn</p>
+            <p class="mt-2 text-sm text-brand-white/80 text-center">Remolques varios</p>
           </div>
         </div>
         <ul class="mt-4 space-y-2 text-sm text-brand-white/80 list-disc list-inside">
@@ -203,6 +198,16 @@
   </div>
 </section>
 
+<section>
+      <!-- Bloque destacado -->
+    <div class="mt-10 rounded-2xl border border-brand-orange bg-brand-orange/10 p-6 sm:p-8 text-center shadow-lg">
+      <h3 class="text-xl sm:text-2xl font-bold text-brand-orange">Habilitados para zonas petroleras</h3>
+      <p class="mt-3 text-brand-white/80 max-w-3xl mx-auto">
+        Todos nuestros equipos y personal cuentan con <span class="font-semibold text-brand-orange">capacitaciones, habilitaciones y equipamiento</span> para ingresar y operar en yacimientos de la región.
+      </p>
+    </div>
+</section>
+
 
   <!-- Testimonios -->
   <section id="testimonios" class="py-16 sm:py-24 bg-white/5 border-y border-white/10">
@@ -229,27 +234,31 @@
     </div>
   </section>
 
-  <!-- Flota -->
-  <section id="flota" class="py-16 sm:py-24">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="flex items-end justify-between gap-4 flex-wrap">
-        <div class="max-w-2xl">
-          <h2 class="text-2xl sm:text-4xl font-bold">Nuestra flota</h2>
-          <p class="mt-2 text-brand-white/70">Vehículos acondicionados para auxilio y transporte, listos para tu necesidad.</p>
-        </div>
-        <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/5">Solicitar disponibilidad</a>
+<!-- Flota -->
+<section id="flota" class="py-16 sm:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 flex-wrap">
+      <div class="max-w-2xl">
+        <h2 class="text-2xl sm:text-4xl font-bold">Nuestra flota</h2>
+        <p class="mt-2 text-brand-white/70">Vehículos acondicionados para auxilio y transporte, listos para tu necesidad.</p>
       </div>
-      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Placeholders de imágenes de flota -->
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Camión 1</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Camión 2</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Grúa</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Remolque Liviano</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Remolque Pesado</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Pickup Auxilio</div>
-      </div>
+      <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/5">Solicitar disponibilidad</a>
     </div>
-  </section>
+
+    <!-- Grilla de fotos -->
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Camión 1</div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Camión 2</div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Foto Grúa</div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Remolque Liviano</div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Remolque Pesado</div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 aspect-[4/3] grid place-items-center text-brand-white/60">Pickup Auxilio</div>
+    </div>
+
+
+  </div>
+</section>
+
 
   <!-- Llamado a la acción intermedio -->
   <section class="py-10">
@@ -265,29 +274,46 @@
     </div>
   </section>
 
-  <!-- Cobertura / Ubicación (Mapa) -->
-  <section id="cobertura" class="py-16 sm:py-24 bg-white/5 border-y border-white/10">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="max-w-2xl">
-        <h2 class="text-2xl sm:text-4xl font-bold">Cobertura</h2>
-        <p class="mt-2 text-brand-white/70">Base operativa en <span class="font-semibold">[Villa Regina / Rio Negro]</span>. Llegamos a toda la región y realizamos traslados interurbanos.</p>
+<!-- Cobertura / Ubicación (Mapa) -->
+<section id="cobertura" class="py-16 sm:py-24 bg-white/5 border-y border-white/10">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto">
+      <h2 class="text-2xl sm:text-4xl font-bold">Cobertura</h2>
+      <p class="mt-2 text-brand-white/70">
+        Bases operativas estratégicamente ubicadas para asegurar rapidez y cobertura: Auxilio Mecánico y Logística.
+      </p>
+    </div>
+
+    <div class="mt-10 grid sm:grid-cols-2 gap-6">
+      <!-- Auxilio Mecánico -->
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+        <h3 class="text-xl font-bold flex items-center gap-2">🚨 Auxilio Mecánico</h3>
+        <ul class="mt-4 space-y-2 text-brand-white/75">
+          <li>📍 <span class="font-semibold">Añelo, Neuquén</span></li>
+          <li>📍 <span class="font-semibold">Villa Regina, Río Negro</span></li>
+          <li>✨ Cobertura nacional con respuesta rápida</li>
+        </ul>
       </div>
-      <div class="mt-8 grid lg:grid-cols-2 gap-6 items-start">
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-6 text-sm text-brand-white/75">
-          <ul class="space-y-2 list-disc list-inside">
-            <li>Atención en ciudad y rutas principales</li>
-            <li>Traslados programados y urgentes</li>
-            <li>Coordinación con talleres y aseguradoras</li>
-            <li>Remolque de corta y larga distancia</li>
-          </ul>
-        </div>
-        <div class="rounded-2xl border border-white/10 overflow-hidden">
-          <!-- Placeholder de mapa embebido (reemplazar src) -->
-          <div class="aspect-[16/9] bg-black/40 grid place-items-center text-brand-white/60">Mapa de cobertura / Google Maps</div>
-        </div>
+
+      <!-- Logística -->
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+        <h3 class="text-xl font-bold flex items-center gap-2">📦 Logística</h3>
+        <ul class="mt-4 space-y-2 text-brand-white/75">
+          <li>📍 <span class="font-semibold">Villa Regina, Río Negro</span></li>
+          <li>🚛 Operaciones en todo el país</li>
+        </ul>
       </div>
     </div>
-  </section>
+        <div class="mt-8">
+      <img src="./images/maps.webp" alt="Mapa de cobertura" class="w-full rounded-2xl border border-white/10">
+    </div>
+  </div>
+</section>
+
+
+
+
+
 
   <!-- Footer con Contacto -->
 <footer id="contacto" class="bg-black py-16 sm:py-24">
@@ -368,18 +394,26 @@
 
 
     <!-- Desarrollado por -->
-    <div class="mt-6 text-center">
-      <p class="text-brand-white/70 text-sm mb-2">Desarrollado por</p>
-      <div class="flex justify-center">
-        <img src="./images/impulsar-sin-fondo.png" alt="Impulsar Logo" class="h-20">
-        <!-- <p>Agencia de desarrollo web</p> -->
-      </div>
-    </div>
+<div class="mt-10 pt-6 border-t border-white/10 text-center">
+  <p class="text-brand-white/70 text-sm mb-2">Desarrollado por</p>
+  <div class="flex justify-center">
+    <a href="https://impulsardigital.com.ar" target="_blank">
+      <img src="./images/logo-nuevo.png" alt="Impulsar Logo" class="h-12 mx-auto">
+    </a>
+  </div>
+  <p class="text-xs text-brand-white/60 mt-2">Agencia de desarrollo web /p>
+  <div class="flex justify-center gap-4 mt-3 text-xs text-brand-white/50">
+    <a href="mailto:impulsardigitalok@gmail.com" class="hover:text-brand-orange">Email</a>
+    <a href="https://wa.me/5493364189749" class="hover:text-brand-orange">WhatsApp</a>
+    <a href="https://impulsardigital.com.ar" target="_blank" class="hover:text-brand-orange">Sitio web</a>
+  </div>
+</div>
+
   </div>
 </footer>
 
 <!-- Botón flotante de WhatsApp -->
-<a href="https://wa.me/5490000000000" class="fixed bottom-5 right-5 inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-orange text-brand-black shadow-soft hover:opacity-90" aria-label="WhatsApp">
+<a href="https://wa.me/+5492984507754" class="fixed bottom-5 right-5 inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-orange text-brand-black shadow-soft hover:opacity-90" aria-label="WhatsApp">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-7 h-7" fill="currentColor"><path d="M.057 24l1.687-6.163A11.94 11.94 0 0 1 0 11.993C0 5.373 5.373 0 11.994 0 18.616 0 24 5.373 24 11.993 24 18.615 18.616 24 11.994 24a11.94 11.94 0 0 1-5.807-1.544L.057 24zM6.548 19.33c1.676.995 3.276 1.591 5.446 1.593 5.448 0 9.886-4.434 9.889-9.885.003-5.462-4.415-9.89-9.881-9.893-5.45 0-9.887 4.434-9.89 9.884-.001 2.225.651 3.891 1.746 5.634L3.3 20.7l3.248-1.37zM8.4 7.7c-.188-.42-.387-.429-.567-.438l-.483-.01c-.168 0-.44.063-.671.314-.23.252-.88.861-.88 2.1s.901 2.438 1.027 2.607c.126.168 1.733 2.77 4.2 3.77 2.07.816 2.49.654 2.94.612.45-.042 1.45-.594 1.655-1.17.205-.575.205-1.068.143-1.17-.063-.105-.23-.168-.483-.294-.252-.126-1.49-.735-1.72-.819-.231-.084-.399-.126-.567.126-.168.252-.651.819-.798.987-.147.168-.294.189-.546.063-.252-.126-1.065-.393-2.03-1.25-.75-.669-1.255-1.497-1.402-1.749-.147-.252-.016-.389.111-.515.114-.114.252-.294.378-.441.126-.147.168-.252.252-.42.084-.168.042-.315-.021-.441-.063-.126-.567-1.365-.798-1.866z"/></svg>
 </a>
 
